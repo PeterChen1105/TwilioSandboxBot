@@ -20,9 +20,9 @@ class EchoBot extends ActivityHandler {
         const reply = { type: ActivityTypes.Message };
         reply.attachments = [
           {
-            contentType: "image/jpeg",
+            contentType: "image/jpg",
             contentUrl:
-              "https://www.flaticon.com/svg/vstatic/svg/1766/1766528.svg?token=exp=1610928854~hmac=a370888ab39a1f2a2479e3e28c086f2a",
+              "https://media.wired.com/photos/5b6df22751297c21002b4536/16:9/w_2400,h_1350,c_limit/HackerBot.jpg",
           },
         ];
         await context.sendActivity(reply);
